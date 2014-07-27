@@ -1,0 +1,296 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3 {
+  font-family: 'Lobster Two';
+}
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+  color: #003A70;
+}
+
+p {
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight:100;
+  line-height: 1.3;
+  color:#5B5B5B;
+
+}
+
+.white {
+  color: #fff;
+}
+
+#schedule {
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight:100;
+  line-height: 1.3;
+  color:#5B5B5B;
+}
+
+
+
+
+
+#schedule th {
+  font-size:20px;
+}
+
+
+table, td, th {
+  
+  text-align:none;
+  vertical-align:top;
+  padding:15px;
+  margin:auto;
+  max-width:150px;
+  max-height:25px;
+}
+
+iframe {
+  margin:auto;
+}
+
+/*Navbar*/
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+  color: #003399;
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #999;
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.navbar-active {
+  color: #003399;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.transparent-active {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+/* Full Page Image Header Area */
+
+
+
+.header { /*campinile */
+  display: table;
+  height: 450px; /*450px*/
+  width: 100%;
+  position: relative;
+  background: url(../img/campinile.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 5.5em;
+  font-weight: 300;
+}
+
+.vert-text a {
+  color: #D19000;
+}
+.vert-text a:hover {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+
+/* Intro */
+
+.full {
+  height: %;
+}
+.intro {
+  padding: 40px 0;
+  height: 50%;
+}
+
+/* Services */
+
+.services {
+ /* background: #7fbbda;*/
+  padding: 50px 0;
+  height: 50%;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+
+/* Contact us Picture */
+.contact {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/contactus.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* Performer Picture */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/zellerbach.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: #4F758B;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  padding: 0px 0;
+}
+
+
+#callout, #top, #contact {
+  font-family: 'Lobster Two';
+  font-size:50px;
+
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: #DBA901;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+
+/*Buttons*/
+.btn-lg {
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  border: none;  
+}
+.btn-primary {
+  border: none;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  
+  .header {
+  background: url(../img/campinile.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+  background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+  height: 75%;
+  }
+
+}
+
